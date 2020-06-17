@@ -1,14 +1,21 @@
 # 3D Construction and Visualization from 2D images
 
+
 We constructed an automated platform for generating 3D sunglass prototypes by extruding points from the two input 2D images - front view and side view. Therein, we apply image processing techniques to get an image that fulfils our desired requirements for the further steps in this project. We also used math and pixel information for fitting the handles. This algorithm developed with VTK and Python libraries will construct a 3D prototype for frames of any sizes but it is limited to a few shapes. Dealing with irregular frame shapes and tinted/ transparent lenses of the sunglasses make way for the future aspect of this research work.
+
+
+## Code Files and dependencies
+
 
 There are two codes provided, one named as “segmentation” and other as “mesh”. Copy
 the code in your python IDE (python 3.5) and add the following dependencies on the
 project: vtk (v8.1.2), OpenCV (v3.4.3.18), SciPy (v1.2.1), numPy (v1.15.3)
 
+
 The input images are required to be sunglasses of opaque material. It is required that for
-the side view of the sunglass, it is faced to the left side for the code to work properly. One
-another requirement. Initially we created the “segment” script for all kind of operations
+the side view of the sunglass, it is faced to the left side for the code to work properly. This is 
+another requirement. This shortcoming will be fixed in the future aspect of this project.
+Initially we created the “segment” script for all kind of operations
 such as
 * Key '0' - To select areas of sure background
 * Key '1' - To select areas of sure foreground
@@ -17,9 +24,12 @@ such as
 * Key 'n' - To update the segmentation
 * Key 'r' - To reset the setup
 * Key 's' - To save the results
-However all though they were created for initial development, for the final report we don’t need
-them. We only need to manually remove the frame portion from the side view and keep only the
+However later we only needed to manually remove the frame portion from the side view and keep only the
 handles of the sunglasses. 
+
+
+## Lets get this project up and running!!
+
 
 For doing so,
 * Define the filename in line 108.( filename = 'img.jpg'), where file is in the same folder.

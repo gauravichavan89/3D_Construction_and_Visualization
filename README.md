@@ -1,4 +1,4 @@
-# 3D_Construction_and_Visualization
+# 3D Construction and Visualization from 2D images
 
 We constructed an automated platform for generating 3D sunglass prototypes by extruding points from the two input 2D images - front view and side view. Therein, we apply image processing techniques to get an image that fulfils our desired requirements for the further steps in this project. We also used math and pixel information for fitting the handles. This algorithm developed with VTK and Python libraries will construct a 3D prototype for frames of any sizes but it is limited to a few shapes. Dealing with irregular frame shapes and tinted/ transparent lenses of the sunglasses make way for the future aspect of this research work.
 

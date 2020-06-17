@@ -31,7 +31,6 @@ handles of the sunglasses.
 ## Lets get this project up and running!!
 
 
-For doing so,
 * Define the filename in line 108.( filename = 'img.jpg'), where file is in the same folder.
 * Run the code, two window will pop up. On the window that has the picture of side-view,
 right click for the rectangle to work, drag mouse to select only frame portion, press “x” in
